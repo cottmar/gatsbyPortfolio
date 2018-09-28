@@ -1,20 +1,24 @@
-html {
+/* html {
   font-family: 'Times New Roman', Times, serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
 body {
   margin: 0;
+} 
+
+.aboutMe {
+  width: 50px;
+  height: 450px;
 }
 
-
 .about {
-  align-self: stretch;
-  margin: 0 auto;
+  width: 50px;
+  height: 450px;
   background-color: black;
   color: white;
   font-family: fantasy;
-
 }
 
 article,
@@ -626,4 +630,4 @@ pre tt:after {
   html {
     font-size: 100%;
   }
-}
+} */
