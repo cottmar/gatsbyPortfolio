@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
 import AboutMe from '../components/About/aboutme/aboutme';
 
 import Layout from '../components/layout'
