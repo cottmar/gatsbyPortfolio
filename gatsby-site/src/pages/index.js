@@ -1,8 +1,12 @@
 import React from 'react';
-// import './style.scss'
+import forest from '../images/forest/forest.jpg';
+import './style.scss';
 
 const IndexPage = () => (
     <div className="index">
+    <div className="backgroundImage">
+    <img src={forest} alt="forest" width="1165px" height="1080px"/>
+    </div>
       <div className="main">
         <h5>
           Hi, I'm <span className="bold">Cara Ottmar</span>
