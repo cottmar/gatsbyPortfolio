@@ -1,27 +1,26 @@
-import React from 'react'
-import rockMountain from '../images/rockMountain/rockymountain.jpg';
-// import { Link } from 'gatsby'
-// import AboutMe from '../components/About/aboutme/aboutme';
-// import Layout from '../components/layout'
-// import TemplateWrapper from '../layouts/index';
+import React from 'react';
+// import './style.scss'
 
-// const IndexPage = () => (
-//   <Layout>
-//     <h1>Hi, I'm Cara Ottmar</h1>
-//     <h2>I am a Full-Stack Software Developer (MERN) with a background working in the financial industry. <br></br>
-//      I have a passion for collaboration, innovation, and efficiency. <br></br>
-//      I love how technology brings these three passions together to help make the world a better place.</h2>
-//      <AboutMe/>
-//   {/* <TemplateWrapper/> */}
-//   </Layout>
-// )
-
-// export default IndexPage
-
-export default () => (
-  <div style={{ color: `purple`, fontSize: `72px` }}>
-  <h1>HELLO GATSBY!</h1>
-  <p>What a world.</p>
-  <img src={rockMountain} alt="mountain pic"/>
-  </div>
+const IndexPage = () => (
+    <div className="index">
+      <div className="main">
+        <h5>
+          Hi, I'm <span className="bold">Cara Ottmar</span>
+        </h5>
+        <h3>
+          I am a Full-Stack Software Developer (MERN) with a background working in the financial industry. <br></br>
+         I have a passion for collaboration, innovation, and efficiency. <br></br>
+         I love how technology brings these three passions together to help make the world a better place. 
+        </h3>
+      </div>
+      <div className="aside">
+        <div className="top">
+          {/* <About /> */}
+        </div>
+        <div className="bottom">
+          {/* <Links /> */}
+        </div>
+      </div>
+    </div>
 )
+export default IndexPage
