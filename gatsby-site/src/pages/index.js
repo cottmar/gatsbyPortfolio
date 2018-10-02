@@ -11,7 +11,7 @@ const IndexPage = () => (
     </div>
       <div className="main">
         <h5>
-          Hi, I'm <span className="bold">Cara Ottmar</span>
+          Hi, I'm <em className="bold">Cara Ottmar</em>
         </h5>
         <h3>
          I am a Full-Stack Software Developer (MERN) with a background working in the financial industry. <br></br>
