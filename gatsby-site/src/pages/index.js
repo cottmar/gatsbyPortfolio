@@ -1,6 +1,6 @@
 import React from 'react';
+import AboutMe from '../components/About/AboutMe.js';
 import forest from '../images/forest/forest.jpg';
-import './style.scss';
 
 const IndexPage = () => (
     <div className="index">
@@ -12,14 +12,14 @@ const IndexPage = () => (
           Hi, I'm <span className="bold">Cara Ottmar</span>
         </h5>
         <h3>
-          I am a Full-Stack Software Developer (MERN) with a background working in the financial industry. <br></br>
+         I am a Full-Stack Software Developer (MERN) with a background working in the financial industry. <br></br>
          I have a passion for collaboration, innovation, and efficiency. <br></br>
          I love how technology brings these three passions together to help make the world a better place. 
         </h3>
       </div>
       <div className="aside">
         <div className="top">
-          {/* <About /> */}
+          <AboutMe/>
         </div>
         <div className="bottom">
           {/* <Links /> */}
