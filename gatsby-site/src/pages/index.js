@@ -1,10 +1,12 @@
 import React from 'react';
-import AboutMe from '../components/About/AboutMe.js';
+import AboutMe from '../components/About/aboutme';
 import forest from '../images/forest/forest.jpg';
+import Links from '../components/About/links';
+import '../pages/style.css';
 
 const IndexPage = () => (
     <div className="index">
-    <div className="backgroundImage">
+    <div class="backgroundImage">
     <img src={forest} alt="forest" width="1165px" height="1080px"/>
     </div>
       <div className="main">
@@ -22,7 +24,7 @@ const IndexPage = () => (
           <AboutMe/>
         </div>
         <div className="bottom">
-          {/* <Links /> */}
+          <Links />
         </div>
       </div>
     </div>

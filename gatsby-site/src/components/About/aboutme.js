@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../About/aboutme.css';
 
 class AboutMe extends Component {
   render() {
@@ -7,7 +8,7 @@ class AboutMe extends Component {
         <div className="image">
         </div>
         <div className="about">
-          Seattle based technology enthusiast who loves spending time hiking, taking photos, and cuddling Chihuahuas.
+          Seattle based technology enthusiast who loves hiking, team trivia, photography, and cuddling Chihuahuas.
         </div>
       </div>
     )
