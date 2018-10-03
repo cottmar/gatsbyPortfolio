@@ -1,28 +1,30 @@
 import React from 'react';
+import AboutMe from '../components/About/aboutme';
 import forest from '../images/forest/forest.jpg';
-import './style.scss';
+import Links from '../components/About/links';
+import '../pages/style.css';
 
 const IndexPage = () => (
     <div className="index">
-    <div className="backgroundImage">
+    <div class="backgroundImage">
     <img src={forest} alt="forest" width="1165px" height="1080px"/>
     </div>
       <div className="main">
         <h5>
-          Hi, I'm <span className="bold">Cara Ottmar</span>
+          Hi, I'm <em className="bold">Cara Ottmar</em>
         </h5>
         <h3>
-          I am a Full-Stack Software Developer (MERN) with a background working in the financial industry. <br></br>
+         I am a Full-Stack Software Developer (MERN) with a background working in the financial industry. <br></br>
          I have a passion for collaboration, innovation, and efficiency. <br></br>
          I love how technology brings these three passions together to help make the world a better place. 
         </h3>
       </div>
       <div className="aside">
         <div className="top">
-          {/* <About /> */}
+          <AboutMe/>
         </div>
         <div className="bottom">
-          {/* <Links /> */}
+          <Links />
         </div>
       </div>
     </div>

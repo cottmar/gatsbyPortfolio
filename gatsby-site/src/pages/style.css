@@ -1,0 +1,44 @@
+.index {
+  width: 960px;
+  height: 300px;
+}
+
+.backgroundImage {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  min-height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.main {
+  margin: 0 auto;
+}
+
+.bold {
+  color: lime;
+  font-family: cursive;
+}
+
+h3 {
+  padding-left: 30em;
+}
+
+.aside {
+  background-color: rgb(1, 36, 1);
+  align-self: stretch;
+  margin: 0 auto;
+  color: lightpink;
+  height: 300px;
+}
+
+@media screen and (max-width: 1024px) {
+  /* May want to change this */
+  .backgroundImage {
+    left: 50%;
+    margin-left: -512px;
+  }
+}
+
