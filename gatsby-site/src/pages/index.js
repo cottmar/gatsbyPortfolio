@@ -1,14 +1,12 @@
 import React from 'react';
 import AboutMe from '../components/About/aboutme';
-import forest from '../images/forest/forest.jpg';
+import BackgroundImage from '../components/backgroundImage/backgroundImage';
 import Links from '../components/About/links';
 import '../pages/style.css';
 
 const IndexPage = () => (
-    <div className="index">
-    <div class="backgroundImage">
-    <img src={forest} alt="forest" width="1165px" height="1080px"/>
-    </div>
+  <div className="index">
+  <BackgroundImage/>  
       <div className="main">
         <h5>
           Hi, I'm <em className="bold">Cara Ottmar</em>
