@@ -3,16 +3,6 @@
   height: 300px;
 }
 
-.backgroundImage {
-  min-height: 100%;
-  min-width: 1024px;
-  width: 100%;
-  min-height: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
 .main {
   margin: 0 auto;
 }
@@ -22,16 +12,25 @@
   font-family: cursive;
 }
 
+h5 {
+  margin: 0;
+  padding-top: -100em;
+}
+
 h3 {
-  padding-left: 30em;
+  margin: 0;
+  padding-top: -110em;
+  padding-left: 5em;
 }
 
 .aside {
-  background-color: rgb(1, 36, 1);
+  background-color: rgb(1, 22, 1);
   align-self: stretch;
-  margin: 0 auto;
+  margin: 0;
+  margin-top: -50vw;
   color: lightpink;
-  height: 300px;
+  height: 40vw;
+  width: 30vw;
 }
 
 @media screen and (max-width: 1024px) {
