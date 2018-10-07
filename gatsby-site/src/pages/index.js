@@ -29,13 +29,14 @@ const IndexPage = () => (
   </div>
 )
 
-// const styles = StyleSheet.create({
-//   backgroundImage: {
-//     flex: 1,
-//     width: null,
-//     height: null,
-//     resizeMode: 'cover'
-//   }
-// });
+// comment back out
+const styles = StyleSheet.create({
+  backgroundImage: {
+    flex: 1,
+    width: null,
+    height: null,
+    resizeMode: 'cover'
+  }
+});
 
 export default IndexPage
