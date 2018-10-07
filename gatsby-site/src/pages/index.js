@@ -5,11 +5,9 @@ import forest from '../images/forest/forest.jpg';
 import '../pages/style.css';
 
 const IndexPage = () => (
-  <div id="backgroundImage">
-    <img src={forest} alt="forest" width="100%"/>
-    {/* {this.props.children} */}
-  <div className="index">
   <div className="main">
+    <img src={forest} alt="forest" width="100%"/>
+  {/* <div className="index"> */}
         <h5>
           Hi, I'm <em className="bold">Cara Ottmar</em>
         </h5>
@@ -26,8 +24,8 @@ const IndexPage = () => (
           <Links />
         </div>
       </div>
-      </div>
-      </div>
+      {/* </div> */}
+      {/* </div> */}
   </div>
 )
 
