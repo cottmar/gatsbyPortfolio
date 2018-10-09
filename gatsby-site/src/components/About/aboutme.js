@@ -10,7 +10,7 @@ class AboutMe extends Component {
         <div className="about">
           Seattle based technology enthusiast who loves hiking, team trivia, photography, and cuddling Chihuahuas.
         </div>
-      </div>
+        </div>
     )
   }
 }
