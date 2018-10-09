@@ -1,13 +1,13 @@
 import React from 'react';
 import AboutMe from '../components/About/aboutme';
 import Links from '../components/About/links';
-import forest from '../images/forest/forest.jpg';
+// import forest from '../images/forest/forest.jpg';
 import '../pages/style.css';
 
 const IndexPage = () => (
   <div className="main">
-    <img src={forest} alt="forest" width="100%"/>
-  {/* <div className="index"> */}
+  {/* <img src={forest} alt="forest" width="100%"/> */}
+  <div className="index">
         <h5>
           Hi, I'm <em className="bold">Cara Ottmar</em>
         </h5>
@@ -24,19 +24,18 @@ const IndexPage = () => (
           <Links />
         </div>
       </div>
-      {/* </div> */}
-      {/* </div> */}
+      </div>
   </div>
 )
 
 // comment back out
-const styles = StyleSheet.create({
-  backgroundImage: {
-    flex: 1,
-    width: null,
-    height: null,
-    resizeMode: 'cover'
-  }
-});
+// const styles = StyleSheet.create({
+//   backgroundImage: {
+//     flex: 1,
+//     width: null,
+//     height: null,
+//     resizeMode: 'cover'
+//   }
+// });
 
 export default IndexPage
