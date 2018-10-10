@@ -104,3 +104,13 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 ## 💫 Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+
+## CSS Resources
+
+**This is my first foray into Flexbox and I used the following resources for guidance:
+[![Youtube Video]
+[https://www.youtube.com/watch?v=k32voqQhODc](https://www.youtube.com/watch?v=k32voqQhODc)
+
+
+[![Flexbox Free Code Camp Docs][https://guide.freecodecamp.org/css/tutorials/css-flexbox-tips-and-tricks/]
+(https://guide.freecodecamp.org/css/tutorials/css-flexbox-tips-and-tricks/)
