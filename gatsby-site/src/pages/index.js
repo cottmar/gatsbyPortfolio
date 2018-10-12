@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutMe from '../components/About/aboutme';
 import Links from '../components/About/links';
+import Projects from '../components/Projects/projects';
 // import forest from '../images/forest/forest.jpg';
 import '../pages/style.scss';
 
@@ -16,6 +17,7 @@ const IndexPage = () => (
             I have a passion for collaboration, innovation, and efficiency. <br></br>
             I love how technology brings these three passions together to help make the world a better place. 
           </h3>
+          <Projects/>
         <div className="aside">
           <div className="top">
             <AboutMe/>
