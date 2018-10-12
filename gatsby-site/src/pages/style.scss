@@ -1,13 +1,126 @@
 @import '../images//scss/main.scss';
 
-// $vertical-padding: 50px;
-// $horizontal-padding: 64px;
-// $main-width: 65%;
-// $main-margin-right: 35%;
-// $aside-width: 35%;
+$vertical-padding: 50px;
+$horizontal-padding: 64px;
+$main-width: 65%;
+$main-margin-right: 35%;
+$aside-width: 35%;
 
-.aside {
-  color: black;
+.main {
+  margin: 0 auto;
+
+  h1 {
+    font-size: 3.4rem;
+    line-height: 1.6;
+
+    @include sm {
+      font-size: 2.8rem;
+    }
+
+    @include md {
+      font-size: 3rem;
+    }
+
+    @include lg {
+      font-size: 3rem;
+    }
+
+    h3 {
+      font-size: 3.4rem;
+      line-height: 1.6;
+
+      @include lg {
+        $main-wdith: 65%;
+        $main-margin-right: 35%;
+        $vertical-padding: 50px;
+        $horizontal-padding: 8%;
+
+        width: $main-wdith;
+        margin-right: $main-margin-right;
+        padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
+      }
+
+      @include md {
+        $main-width: 70%;
+        $main-margin-right: 30%;
+        $vertical-padding: 50px;
+        $horizontal-padding: 8%;
+
+        width: $main-width;
+        margin-right: $main-margin-right; 
+        padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
+      }
+
+      @include lg {
+        $main-width: 70%;
+        $main-margin-right: 30%;
+        $vertical-padding: 50px;
+        $horizontal-padding: 8%;
+
+        width: $main-width;
+        margin-right: $main-margin-right; 
+        padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
+      }
+
+      @include sm {
+        $main-width: 100%;
+        $main-margin-right: 0;
+        $vertical-padding: 50px;
+        $horizontal-padding: 48px;
+
+        width: $main-width;
+        margin-right: $main-margin-right; 
+        padding: $vertical-padding $horizontal-padding 0 $horizontal-padding;
+      }
+    }
+  }
+
+  .aside {
+    align-self: stretch;
+    margin: 0;
+    background-color: black;
+    color: white;
+    
+    @include sm {
+      position: relative;
+      text-align: center;
+      right: auto;
+      top: auto;
+      display: block;
+      padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
+      
+      .bottom {
+        padding: $vertical-padding $horizontal-padding 0 $horizontal-padding;
+      }
+    }
+      // @include md {
+      //   position: fixed;
+      //   display: flex;
+      //   flex-directION: column;
+      //   align-items: flex-start;
+      //   justify-content: space-between;
+      //   // right: 0;
+      //   top: 0;
+      //   height: 100%;
+          
+      //   .top {
+      //     flex-grow: 1;
+      //   }
+          
+      //   .bottom {
+      //     width: 100%;
+      //   }
+      // }
+
+    @include lg {
+      // $aside-width: 15%;
+      $vertical-padding: 50px;
+      $horizontal-padding: 64px;
+
+      // width: $aside-width;
+      padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
+    }
+  }
 }
 
 

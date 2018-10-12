@@ -9,9 +9,9 @@ const IndexPage = () => (
   <div className="index">
     <div className="main">
   {/* <img src={forest} alt="forest" width="100%"/> */}
-          <h5>
+          <h1>
             Hi, I'm <em className="bold">Cara Ottmar</em>
-          </h5>
+          </h1>
           <h3>
             I am a Full-Stack Software Developer (MERN) with a background working in the financial industry. <br></br>
             I have a passion for collaboration, innovation, and efficiency. <br></br>
