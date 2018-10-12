@@ -1,21 +1,18 @@
 module.exports = {
-  siteMetadata: {
-    title: 'Hello, World',
-  },
   plugins: [
-    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sass',
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
-        start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
-        display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // root of site
-      },
+        fonts: [
+          `open sans\:300,600`
+        ]
+      }
     },
-    'gatsby-plugin-offline',
   ],
-}
+  siteMetadata: {
+    title: 'Cara Ottmar',
+    description: 'Fullstack software developer',
+    keywords: 'fullstack, MERN, Javascript, Seattle, software developer, software engineer, portfolio, react',
+  },
+};

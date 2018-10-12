@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=KoHo');
+
+// ** main font **
+$Koho: 'KoHo', sans-serif;
+
+
+// ** colors **
+$lightpink-color: #FFB6C1;
+$grey-color-light: #CCCCCC;
+$border-color: #FFFFFF;
+$border-color-dark: #000000;
+
+// ** media queries **
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 320px;
+$screen-sm-max: 767px;
+
+// Small tablets (portrait view) 
+$screen-md-min: 768px;
+$screen-md-max: 991px;
+
+// Tablets and small desktops 
+$screen-lg-min: 992px;
+
+// Large tablets and desktops 
+$screen-xl-min: 1200px;
