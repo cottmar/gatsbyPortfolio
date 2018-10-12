@@ -2,7 +2,7 @@ import React from 'react';
 import AboutMe from '../components/About/aboutme';
 import Links from '../components/About/links';
 // import forest from '../images/forest/forest.jpg';
-import '../pages/style.css';
+import '../pages/style.scss';
 
 const IndexPage = () => (
   <div className="index">

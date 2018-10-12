@@ -1,7 +1,41 @@
-$breakpoints: (
-  xsmall: 480px,
-  small: 736px,
-  medium: 980px,
-  large: 1280px,
-  xlarge: 1800px
-);
+
+// $breakpoints: (
+//   xsmall: 480px,
+//   small: 736px,
+//   medium: 980px,
+//   large: 1280px,
+//   xlarge: 1800px
+// );
+
+@import 'vars';
+
+// ** media queries **
+
+// Small devices (small tablets and large smartphones (landscape view))
+@mixin sm {
+  @media (max-width: #{$screen-sm-max}) {
+    @content;
+  }
+}
+
+// Medium devices (small tablets (portrait view))
+@mixin md {
+  @media (min-width: #{$screen-md-min})
+  and (max-width: #{$screen-md-max}) {
+      @content;
+  }
+}
+
+// Large devices (tablets and small desktops)
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+      @content;
+  }
+}
+
+// Extra large devices (large tablets and desktops)
+@mixin xl {
+  @media (min-width: #{$screen-xl-min}) {
+      @content;
+  }
+}
