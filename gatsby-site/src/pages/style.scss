@@ -93,6 +93,7 @@ $aside-width: 35%;
         padding: $vertical-padding $horizontal-padding 0 $horizontal-padding;
       }
     }
+    
       // @include md {
       //   position: fixed;
       //   display: flex;
@@ -102,16 +103,16 @@ $aside-width: 35%;
       //   // right: 0;
       //   top: 0;
       //   height: 100%;
-          
-      //   .top {
-      //     flex-grow: 1;
-      //   }
-          
-      //   .bottom {
-      //     width: 100%;
-      //   }
       // }
 
+        .top {
+          flex-grow: 1;
+        }
+          
+        .bottom {
+          width: 100%;
+        }
+      
     @include lg {
       // $aside-width: 15%;
       $vertical-padding: 50px;
