@@ -1,0 +1,33 @@
+body {
+background-color: rgb(16, 21, 16);
+}
+
+img {
+  width: 100%;
+  height: 50vw;
+  background-image: url('../../images//forest/forest.jpg');
+}
+
+h1, h3 {
+  background-color: white;
+  color: black;
+}
+
+.landing {
+  background-color: white;
+}
+
+// div.wrapper {
+//   float: left;
+//   position: relative;
+// }
+
+// div.description {
+//   position: absolute;
+//   bottom: 0px;
+//   left: 0px;
+//   width: 100%;
+//   color: white;
+//   opacity: .6;
+//   filter: alpha(opacity=60);
+// }
