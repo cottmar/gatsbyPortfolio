@@ -1,13 +1,18 @@
 import React from 'react';
-import Projects from '../Projects/projects';
-import AboutMe from '../About/aboutme';
-import Links from '../About/links';
+import { Link } from 'react-router-dom';
+import forest from '../../images/forest/forest.jpg';
+// import Projects from '../Projects/projects';
+// import AboutMe from '../About/aboutme';
+// import Links from '../About/links';
 import './landing.scss';
 
 class Landing extends React.Component {
   render() {
     return (
-<div className="main">
+    <div classname='wrapper'>
+      <mg src={forest} alt="forest" width="100%"/>
+    
+    <div className="landing">
         <h1>
           Hi, I'm <em className="bold">Cara Ottmar</em>
         </h1>
@@ -16,15 +21,8 @@ class Landing extends React.Component {
           I have a passion for collaboration, innovation, and efficiency. <br></br>
           I love how technology brings these three passions together to help make the world a better place. 
         </h3>
-        <Projects/>
-      <div className="aside">
-        <div className="top">
-          <AboutMe/>
-        </div>
-        <div className="bottom">
-          <Links />
-        </div>
-      </div>
+        <Link to='/projects'><button>Click Here For More</button></Link>
+    </div>
     </div>
       )
     }
