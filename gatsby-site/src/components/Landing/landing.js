@@ -9,10 +9,10 @@ import './landing.scss';
 class Landing extends React.Component {
   render() {
     return (
-    <div classname='wrapper'>
-      <mg src={forest} alt="forest" width="100%"/>
-    
-    <div className="landing">
+      
+      <div classname='wrapper'>
+      <img src={forest} alt="forest" width="100%" height="700vw"/>
+      <div className="landing">
         <h1>
           Hi, I'm <em className="bold">Cara Ottmar</em>
         </h1>
