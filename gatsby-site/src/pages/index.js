@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Landing from '../components/Landing/landing';
-
 import '../pages/style.scss';
 
 class IndexPage extends React.Component {
@@ -15,15 +14,5 @@ class IndexPage extends React.Component {
     )
   }
 }
-
-// comment back out
-// const styles = StyleSheet.create({
-//   backgroundImage: {
-//     flex: 1,
-//     width: null,
-//     height: null,
-//     resizeMode: 'cover'
-//   }
-// });
 
 export default IndexPage

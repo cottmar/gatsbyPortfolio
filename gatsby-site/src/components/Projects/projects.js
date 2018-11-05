@@ -1,9 +1,9 @@
 import React from 'react';
 import findersKeepers from '../../images/FindersKeep/findersKeepersCanvas.png';
-import land from '../../images/land/landAd.png';
 import PlentyOfDogs from '../../images/PlentyOfDogs/plentyOfDogs.png';
 import SOSSMS from '../../images/SOSSMS/sosnpm.png';
 import Quiz from '../../images/Quiz/quiz.png';
+import strafford from '..//../images/strafford/strafford.png';
 
 class Projects extends React.Component {
   render() {
@@ -14,9 +14,9 @@ class Projects extends React.Component {
         <h2><a href='https://finders-keepers-frontend.herokuapp.com/'></a><img src={findersKeepers} alt="game play" width='90px'/></h2>
         <p>Full stack real-time, multiplayer game where users compete against the clock to find the most stars. Utilizing socket.io, ReactJS</p>
       </div>
-      <div className="land">
-        <h2><a href='https://strafford75.herokuapp.com/'></a><img src={land} alt="website screenshot" width='90px'/></h2>
-        <p>Client application advertising acreage marketed as "For Sale by Owner. A fun challenge with no address, photos or design parameters given.</p>
+      <div className="strafford">
+        <h2><a href='https://strafford-acres.herokuapp.com/'></a><img src={strafford} alt="website screenshot" width='90px'/></h2>
+        <p>Client application advertising acreage marketed as "For Sale by Owner.</p>
       </div>
       <div className="PlentyofDogs">
       <h2><a href='http://plenty-of-dogs.site/'></a><img src={PlentyOfDogs} alt="dog site" width='90px'/></h2>
