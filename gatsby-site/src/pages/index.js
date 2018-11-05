@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Landing from '../components/Landing/landing';
+import Header from '../components/header/header';
 import '../pages/style.scss';
 
 class IndexPage extends React.Component {
@@ -8,7 +9,10 @@ class IndexPage extends React.Component {
     return (
       <div className='index'>
       <BrowserRouter>
+      <div>
+      <Header/>
       <Route exact path='/' component={Landing}/>
+      </div>
       </BrowserRouter>
       </div>
     )

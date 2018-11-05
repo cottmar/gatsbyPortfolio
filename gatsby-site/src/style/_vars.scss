@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+// ====== FONTS ======
+
+$Abel: 'Abel', sans-serif;
+
+// ====== COLORS ======
+$background: rgb(16, 21, 16);
+$button: rgb(245, 178, 188);
+
+
+// ====== MEDIA QUERIES ======
+// small tables and Large Smartphones
+$screen-sm-min: 320px;
+$screen-sm-max: 767px;
+
+// small tablets (portrait view)
+$screen-md-min: 768px;
+$screen-md-max: 991px;
+
+// tablets and small desktops 
+$screen-lg-min: 992px;
+
+// large tablets and desktops
+$screen-xl-min: 1200px;

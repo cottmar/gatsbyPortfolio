@@ -14,7 +14,7 @@ class Landing extends React.Component {
           I have a passion for collaboration, innovation, and efficiency. <br></br>
           I love how technology brings these three passions together to help make the world a better place. 
         </h3>
-        {/* <Link to='/projects'><button>Click Here For More</button></Link> */}
+        <Link to='/projects'><button>Click Here For More</button></Link>
     </div>
       )
     }

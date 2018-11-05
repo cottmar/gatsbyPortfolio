@@ -1,0 +1,32 @@
+@import 'vars';
+
+// ====== media queries ======
+
+// small devices
+@mixin sm {
+  @media (max-width: #{$screen-sm-max}) {
+    @content;
+  }
+}
+
+// medium devices
+@mixin md {
+  @media (min-width: #{$screen-md-min})
+  and (max-width: #{$screen-md-max}) {
+    @content;
+  }
+}
+
+// Large devices (tablets and small desktops)
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+      @content;
+  }
+}
+
+// Extra large devices (large tablets and desktops)
+@mixin xl {
+  @media (min-width: #{$screen-xl-min}) {
+      @content;
+  }
+}
